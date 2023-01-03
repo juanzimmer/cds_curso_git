@@ -35,9 +35,11 @@ def create_dataframe_section(df):
 
     return None
 
-    
+
 def main():
     df = load_data()
+
+    create_dataframe_section(df_raw)
 
     st.dataframe(df)
 

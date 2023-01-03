@@ -4,6 +4,7 @@ from src.extration import load_data
 st.set_page_config(layout='wide')
 
 
+
 def main():
     df = load_data()
 
